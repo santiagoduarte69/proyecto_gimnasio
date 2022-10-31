@@ -65,8 +65,7 @@
 
     </header>
 
-    <a id="bgndVideo" class="player"
-      data-property="{videoURL:'https://www.youtube.com/watch?v=w-cRWOjlk8c',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
+    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=w-cRWOjlk8c',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
     </a>
 
     <div class="intro-section" id="home-section" style="background-color: #ccc;">
@@ -147,7 +146,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="slide">
             <div class="ftco-feature-1">
               <span class="icon flaticon-stationary-bike"></span>
@@ -163,13 +162,13 @@
       </div>
     </div>
 
-    <div class="bgimg" style="background-image: url('../img/bg_2.jpg');"  data-stellar-background-ratio="0.5">
+    <div class="bgimg" style="background-image: url('../img/bg_2.jpg');" data-stellar-background-ratio="0.5">
 
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-7">
             <h2 class="">Obtenga el resultado que desea</h2>
-            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, laudantium quia blanditiis ipsum. <a href="/login">Inicia Sesión</a></p>
+            <p class="lead mx-auto desc mb-5">- Los obstáculos no tienen que frenarte. Si te encuentras con una pared, no das la vuelta y abandonas. Encuentras la manera de subir a ella, pasar a través de ella o rodearla. - Michael Jordan <a href="/login">Inicia Sesión</a></p>
           </div>
         </div>
       </div>
@@ -181,8 +180,7 @@
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8  section-heading">
             <h2 class="heading mb-3">Clases</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>Tenemos algunas clases para nuestros clientes las cuales incluyen a instructor que enseñara de forma practica, algunas de nuestras clases son:</p>
           </div>
         </div>
         <div class="row">
@@ -192,10 +190,10 @@
                 <img src="{{ asset('img/img_1.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #1</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de zumba</a></h2>
+                <span>De Felix Garcia</span>,
+                <span>30 minutos</span>
               </div>
             </div>
 
@@ -204,10 +202,10 @@
                 <img src="{{asset('img/img_2.jpg')}}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #2</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de cardio fit</a></h2>
+                <span>De Alexis Guerrero</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
 
@@ -216,22 +214,22 @@
                 <img src="{{ asset('img/img_3.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #3</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de Cardio Fit</a></h2>
+                <span>De felix Garcia</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
-            
+
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
                 <img src="{{asset('img/img_4.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #4</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de salsa</a></h2>
+                <span>De Alexis Guerrero</span>,
+                <span>30 minutos</span>
               </div>
             </div>
 
@@ -240,87 +238,89 @@
                 <img src="{{asset('img/img_1.jpg')}}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #5</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de cardio hit</a></h2>
+                <span>De Felix Garcia</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
-            
-           
+
+
           </div>
           <div class="col-lg-6">
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
-                <img src="{{asset('img/img_1.jpg')}}" alt="Image">
+                <img src="{{ asset('img/img_1.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #1</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de zumba</a></h2>
+                <span>De Felix Garcia</span>,
+                <span>30 minutos</span>
               </div>
             </div>
-            
+
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
                 <img src="{{asset('img/img_2.jpg')}}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #2</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de cardio fit</a></h2>
+                <span>De Alexis Guerrero</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
-            
+
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
-                <img src="{{asset('img/img_3.jpg')}}" alt="Image">
+                <img src="{{ asset('img/img_3.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #3</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de Cardio Fit</a></h2>
+                <span>De felix Garcia</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
-            
+
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
-                <img src="{{asset('img/img_4.jpg')}}" alt="Image">
+                <img src="{{asset('img/img_4.jpg') }}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #4</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de salsa</a></h2>
+                <span>De Alexis Guerrero</span>,
+                <span>30 minutos</span>
               </div>
             </div>
-            
+
             <div class="class-item d-flex align-items-center">
               <a href="single.html" class="class-item-thumbnail">
                 <img src="{{asset('img/img_1.jpg')}}" alt="Image">
               </a>
               <div class="class-item-text">
-                
-                <h2><a href="single.html">Fitness Class Name #5</a></h2>
-                <span>By Justin Daniel</span>,
-                <span>30 minutes</span>
+
+                <h2><a href="single.html">Clase de cardio hit</a></h2>
+                <span>De Felix Garcia</span>,
+                <span>Intervalos de 15 minutos</span>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class="bgimg" style="background-image: url('img/bg_3.jpg');"  data-stellar-background-ratio="0.5">
+    <div class="bgimg" style="background-image: url('img/bg_3.jpg');" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-7">
-            <h2 class="">Every Step Counts</h2>
-            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ad, reprehenderit enim!
-               <a href="/login">Inicia Sesión</a></p>
+            <h2 class="">Basta de excusas</h2>
+            <p class="lead mx-auto desc mb-5">- Aunque nadie puede volver atrás y hacer un nuevo comienzo, cualquiera puede comenzar a partir de ahora y crear un nuevo final. - Carl Bard
+              <a href="/login">Inicia Sesión</a>
+            </p>
           </div>
         </div>
       </div>
@@ -331,143 +331,141 @@
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8  section-heading">
             <h2 class="heading mb-3">Rutinas</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-              texts.
-              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>- Los campeones no están hechos en el gimnasio. Los campeones están hechos de algo que tienen en su interior, un deseo, un sueño, una visión. - Muhammad Ali.</p>
           </div>
         </div>
 
-    <div class="bgimg" style="background-image: url('img/bg_1.jpg');" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center text-center">
-          <div class="col-md-7">
-            <h2 class="">Revisa tus rutinas</h2>
-            <p class="lead mx-auto desc mb-5">Usuarioio inicia sesion y revisa tus rutinas actuales y antiguas con los ejercicios destinados a el musculo a entrenar solo <a href="#" target="_blank">Inicia Sesion</a></p>
+        <div class="bgimg" style="background-image: url('img/bg_1.jpg');" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+              <div class="col-md-7">
+                <h2 class="">Revisa tus rutinas</h2>
+                <p class="lead mx-auto desc mb-5">Usuario inicia sesion y revisa tus rutinas actuales y antiguas con los ejercicios destinados a el musculo a entrenar solo <a href="#" target="_blank">Inicia Sesion</a></p>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="site-section" id="trainer-section">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+              <div class="col-md-8  section-heading">
+                <h2 class="heading mb-3">Comentarios</h2>
+                <p>Estos son algunos de nuestros clientes los cuales nos han brindado su opinion, su comentario acerca de nuestro gimnasio, esperando poder causar ese sentimiento energico de poder entrenar</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
+                <div class="person">
+                  <img src="img/person_1.jpg" alt="Image" class="img-fluid">
+                  <h3>Justin Daniel</h3>
+                  <p class="position">Trainer</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                    texts.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="person">
+                  <img src="img/person_3.jpg" alt="Image" class="img-fluid">
+                  <h3>Matthew Davidson</h3>
+                  <p class="position">Trainer</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                    texts.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="person">
+                  <img src="img/person_2.jpg" alt="Image" class="img-fluid">
+                  <h3>Matthew Davidson</h3>
+                  <p class="position">Trainer</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                    texts.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                <div class="person">
+                  <img src="img/person_4.jpg" alt="Image" class="img-fluid">
+                  <h3>Matthew Davidson</h3>
+                  <p class="position">Trainer</p>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                    texts.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <footer class="footer-section" id="footer-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="text-dark">Sobre GYMCORE</h3>
+                <p>Software enfocado en el manejo de rutinas y el control de las maquinas</p>
+                <div class="footer-social">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href="">Twitter<i class="fab fa-twitter"></i></a>
+                  <a href="">Instagram<i class="fab fa-instagram"></i></a>
+                  <a href="">TikTok<i class="fab fa-tiktok"></i></a>
+
+                </div>
+              </div>
+
+
+              <div class="col-md-3 ml-auto">
+                <h3 class="text-dark">Links</h3>
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Cuidados</a></li>
+                  <li><a href="#">Clases</a></li>
+                  <li><a href="#">Rutinas</a></li>
+                  <li><a href="#">Trainer</a></li>
+                  <li><a href="#">Trainer</a></li>
+
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="row pt-5 mt-5 text-center">
+              <div class="col-md-12">
+                <div class=" pt-5">
+                  <p class="copyright">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>
+                      document.write(new Date().getFullYear());
+                    </script> GYMCORE
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
       </div>
-    </div>
-    
-    <div class="site-section" id="trainer-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
-          <div class="col-md-8  section-heading">
-            <h2 class="heading mb-3">Comentarios</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-              texts.
-              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
+      <!-- .site-wrap -->
 
-        <div class="row">
-          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
-            <div class="person">
-              <img src="img/person_1.jpg" alt="Image" class="img-fluid">
-              <h3>Justin Daniel</h3>
-              <p class="position">Trainer</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-              texts.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="person">
-              <img src="img/person_3.jpg" alt="Image" class="img-fluid">
-              <h3>Matthew Davidson</h3>
-              <p class="position">Trainer</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                texts.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="person">
-              <img src="img/person_2.jpg" alt="Image" class="img-fluid">
-              <h3>Matthew Davidson</h3>
-              <p class="position">Trainer</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                texts.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="person">
-              <img src="img/person_4.jpg" alt="Image" class="img-fluid">
-              <h3>Matthew Davidson</h3>
-              <p class="position">Trainer</p>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                texts.</p>
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/jquery-migrate-3.0.1.min.js"></script>
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/jquery.countdown.min.js"></script>
+      <script src="js/bootstrap-datepicker.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jquery.mb.YTPlayer.min.js"></script>
 
 
-    <footer class="footer-section" id="footer-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3 class="text-dark">Sobre GYMCORE</h3>
-            <p>Software enfocado en el manejo de rutinas y el control de las maquinas</p>
-            <div class="footer-social">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href="">Twitter<i class="fab fa-twitter"></i></a>
-                    <a href="">Instagram<i class="fab fa-instagram"></i></a>
-                    <a href="">TikTok<i class="fab fa-tiktok"></i></a>
-                
-            </div>
-          </div>
-         
-
-          <div class="col-md-3 ml-auto">
-            <h3 class="text-dark">Links</h3>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Cuidados</a></li>
-              <li><a href="#">Clases</a></li>
-              <li><a href="#">Rutinas</a></li>
-              <li><a href="#">Trainer</a></li>
-              <li><a href="#">Trainer</a></li>
-
-            </ul>
-          </div>
-
-        </div>
-
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class=" pt-5">
-              <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> GYMCORE
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
-  </div>
-  <!-- .site-wrap -->
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.mb.YTPlayer.min.js"></script>
-
-
-  <script src="js/main.js"></script>
+      <script src="js/main.js"></script>
 
 </body>
 
