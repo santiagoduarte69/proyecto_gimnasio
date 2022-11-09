@@ -1,4 +1,4 @@
-@extends('auth.tema.app')
+@extends('auth.tema.appCliente')
 
 @section('title', "Listado de Rutinas")
 

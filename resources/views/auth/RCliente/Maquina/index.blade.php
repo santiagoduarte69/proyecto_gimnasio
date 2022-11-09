@@ -1,4 +1,4 @@
-@extends('auth.tema.app')
+@extends('auth.tema.appCliente')
 
 @section('title', "Listado de Maquinas")
 
@@ -63,7 +63,7 @@
             <td>
                 {{ $maquina->gerente->nombre_Geren }}
             </td>
-        @endforeach
+            @endforeach
     </tbody>
 </table>
 @endsection
