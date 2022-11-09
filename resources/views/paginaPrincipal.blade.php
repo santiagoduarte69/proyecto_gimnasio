@@ -54,7 +54,7 @@
                 <li><a href="#classes-section" class="nav-link">Clases</a></li>
                 <li><a href="#schedule-section" class="nav-link">Rutinas</a></li>
                 <li><a href="#trainer-section" class="nav-link">Comentarios</a></li>
-                <li><a href="#footer-section" class="nav-link">Contacto</a></li>
+                <li><a href="/Contacto" class="nav-link">Contacto</a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>

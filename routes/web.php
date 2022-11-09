@@ -31,13 +31,29 @@ Route::get('/', function () {
     return view('paginaPrincipal');
 });
 
-Route::get('/login',[LoginController::class,'create'])->name('login.login');
-Route::post('/login',[LoginController::class,'store'])->name('login.store');
-Route::get('/logout',[LoginController::class,'destroy'])->name('login.destroy');
+Route::get('/Contacto', function () {
+    return view('Contacto');
+});
 
-Route::get('gerente',[Gerente::class,'index'])->middleware('auth.admin')->name('gerente.indexadmin');
-Route::get('cliente',[Cliente::class,'index'])->middleware('auth.cliente')->name('Cliente.indexcliente');
-Route::get('entrenador',[Entrenador::class,'index'])->middleware('auth.entrenador')->name('entrenador.indexentrenador');
+Route::get('/Perfil', function () {
+    return view('Perfil');
+});
+
+Route::get('/PerfilAdmin', function () {
+    return view('PerfilAdmin');
+});
+
+Route::get('/Perfil', function () {
+    return view('PerfilEntrenador');
+});
+
+Route::get('/login', [LoginController::class, 'create'])->name('login.login');
+Route::post('/login', [LoginController::class, 'store'])->name('login.store');
+Route::get('/logout', [LoginController::class, 'destroy'])->name('login.destroy');
+
+Route::get('gerente', [Gerente::class, 'index'])->middleware('auth.admin')->name('gerente.indexadmin');
+Route::get('cliente', [Cliente::class, 'index'])->middleware('auth.cliente')->name('Cliente.indexcliente');
+Route::get('entrenador', [Entrenador::class, 'index'])->middleware('auth.entrenador')->name('entrenador.indexentrenador');
 
 //Rutas Gerente
 
@@ -55,7 +71,7 @@ Route::get('mantenimiento/{mantenimiento}/editar', [MantenimientoController::cla
 Route::put('mantenimiento/{mantenimiento}/actualizar', [MantenimientoController::class, 'update'])->name('mantenimiento.update');
 Route::delete('mantenimiento/{mantenimiento}/eliminar', [MantenimientoController::class, 'destroy'])->name('mantenimiento.destroy');
 
-Route::get('valoracion_fisica/registrar',[ValoracionFisicaController::class, 'create'])->name('valoracion_fisica.create');
+Route::get('valoracion_fisica/registrar', [ValoracionFisicaController::class, 'create'])->name('valoracion_fisica.create');
 Route::get('valoracion_fisica/index', [ValoracionFisicaController::class, 'index'])->name('valoracion_fisica.index');
 Route::post('valoracion_fisica/guardar', [ValoracionFisicaController::class, 'store'])->name('valoracion_fisica.store');
 Route::get('valoracion_fisica/{valoracion_fisica}/editar', [ValoracionFisicaController::class, 'edit'])->name('valoracion_fisica.edit');

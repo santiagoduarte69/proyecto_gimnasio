@@ -24,8 +24,8 @@
                 <h2>INFORMACION<br>DE CONTACTO</h2>
             </section>
             <section class="info_items">
-                <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+                <p><span class="fa fa-envelope"></span> worldfitness.js21@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +57 3002410761</p>
             </section>
         </section>
 
@@ -37,9 +37,6 @@
 
                 <label for="phone">Nombres</label>
                 <input type="text" id="phone">
-
-                <label for="email">Correo electronico</label>
-                <input type="text" id="email">
 
                 <label for="mensaje">Mensaje </label>
                 <textarea id="mensaje"></textarea>

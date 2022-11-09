@@ -63,7 +63,7 @@
           <span class="link_name">Perfil</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Perfil</a></li>
+          <li><a class="link_name" href="/Perfil">Perfil</a></li>
         </ul>
       </li>
 
@@ -92,13 +92,13 @@
 
       <div class="container__box">
         <div class="box">
-        <a href="{{ route('rutina.index2') }}"><i class="lni lni-book"></i></a>
+          <a href="{{ route('rutina.index2') }}"><i class="lni lni-book"></i></a>
           <h5>Ver rutinas</h5>
           <h4>Rutinas</h4>
         </div>
 
         <div class="box">
-        <a href="{{ route('reporte.index2') }}"><i class="lni lni-warning"></i></a>
+          <a href="{{ route('reporte.index2') }}"><i class="lni lni-warning"></i></a>
           <h5>Reportar Maquina</h5>
           <h4>Reportar</h4>
         </div>
@@ -109,9 +109,9 @@
         </div>
 
         <div class="box">
-        <i class="fa-solid fa-circle-info"></i>
+          <a href="/Perfil"> <i class="fa-solid fa-circle-info"></i></a>
           <h5>Ver perfil</h5>
-          <h4>Perfil  </h4>
+          <h4>Perfil </h4>
         </div>
 
       </div>
