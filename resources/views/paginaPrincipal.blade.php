@@ -359,37 +359,33 @@
               <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
                 <div class="person">
                   <img src="img/person_1.jpg" alt="Image" class="img-fluid">
-                  <h3>Justin Daniel</h3>
-                  <p class="position">Trainer</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                    texts.</p>
+                  <h3>Santiago duarte</h3>
+                  <p class="position">Cliente</p>
+                  <p>Es un gimnasio muy acogedor con entrenadores que nos ayudan en los ejercicios , explicandonos el paso a paso y el porque de este, recomendado.</p>
                 </div>
               </div>
               <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="person">
                   <img src="img/person_3.jpg" alt="Image" class="img-fluid">
-                  <h3>Matthew Davidson</h3>
-                  <p class="position">Trainer</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                    texts.</p>
+                  <h3>Alejandra Pelaez</h3>
+                  <p class="position">Cliente</p>
+                  <p>Cuando empeze a entrenar en world fitness pesaba 82 kilos y un porcentaje alto de masa corporal, en tan solo 3 meses de entrenamiento logre bajar 10 kilos, algo fenomenal.</p>
                 </div>
               </div>
               <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="person">
                   <img src="img/person_2.jpg" alt="Image" class="img-fluid">
-                  <h3>Matthew Davidson</h3>
-                  <p class="position">Trainer</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                    texts.</p>
+                  <h3>Felix</h3>
+                  <p class="position">Entrenador</p>
+                  <p>LLevo varios años siendo el entrenador del gimnasio, es un placer para mi poder brindarles el conocimiento que tengo, corregiendo a cada uno en lo que se permite, no olviden entrenar.</p>
                 </div>
               </div>
               <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
                 <div class="person">
                   <img src="img/person_4.jpg" alt="Image" class="img-fluid">
-                  <h3>Matthew Davidson</h3>
+                  <h3>Maria gutierrez</h3>
                   <p class="position">Trainer</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-                    texts.</p>
+                  <p>Es un gimansio que tiene lo necesario para poder entrenar bien, tiene maquinas para cada grupo muscular, y un ambiente acogedor </p>
                 </div>
               </div>
 

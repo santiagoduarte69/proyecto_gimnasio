@@ -13,6 +13,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
   <script src="{{ asset('js/charts-lines.js') }}" defer></script>
   <script src="{{ asset('js/charts-pie.js')}}" defer></script>
+  <style>
+    .w-full {
+      text-decoration: none !important;
+    }
+  </style>
 </head>
 
 
@@ -59,7 +64,7 @@
                 </li>
 
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                  <a class="w-full" href="{{ route('entrenador.index') }}}">Entrenadores</a>
+                  <a class="w-full" href="{{ route('entrenador.index') }}">Entrenadores</a>
                 </li>
 
                 <li class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
