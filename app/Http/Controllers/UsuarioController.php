@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Models\Role;
+use Mail;
+use App\Mail\DemoMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class UsuarioController extends Controller
 {
@@ -32,9 +35,15 @@ class UsuarioController extends Controller
                 'password' => 'required|max:60'
             ]
         );
+        $password=Str::random(20);
+        $datos["password"]=$password;
+        //var_dump($datos);
+       
 
         $usuario = User::create($datos);
+        Mail::to('gpachon88@misena.edu.co')->send(new DemoMail( $datos));
         return view('auth.usuario.creado');
+        
     }
 
     public function show(User $usuario)

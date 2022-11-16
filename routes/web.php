@@ -27,6 +27,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Ruta para enviar el email
+Route::get('send-mail', [MailController::class, 'index']);
+
 Route::get('/', function () {
     return view('paginaPrincipal');
 });
