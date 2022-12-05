@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
- 
+
 use App\Models\Cliente;
 use App\Models\ValoracionFisica;
 use App\Models\User;
@@ -47,8 +47,9 @@ class ClienteController extends Controller
 
     public function index2()
     {
+        $valofisica = ValoracionFisica::All();
         $cliente = Cliente::get();
-        return view('auth.REntrenador.cliente.index', compact('cliente'));
+        return view('auth.REntrenador.cliente.index', compact('cliente'))->with('valofisica', $valofisica);
     }
 
     public function show(Cliente $cliente)
@@ -74,7 +75,7 @@ class ClienteController extends Controller
                 'direccion_Clie' => 'required| max:50',
                 'estado_Clie' => 'required',
                 'id_valoracionFisica_FK',
-                'identificacion_Usuario_FK' => 'unique:user'.$user->id
+                'identificacion_Usuario_FK' => 'unique:user' . $user->id
             ]
         );
 

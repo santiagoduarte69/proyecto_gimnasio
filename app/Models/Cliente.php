@@ -12,24 +12,31 @@ class Cliente extends Model
     use HasFactory, SoftDeletes;
     protected $table = 'cliente';
     protected $fillable = [
-    'nombre_Clie',
-    'apellido_Clie',
-    'fecha_Nac_Clie',
-    'telefono_Clie',
-    'direccion_Clie',
-    'estado_Clie',
-    'id_valoracionFisica_FK',
-    'identificacion_Usuario_FK'];
+        'nombre_Clie',
+        'apellido_Clie',
+        'fecha_Nac_Clie',
+        'telefono_Clie',
+        'direccion_Clie',
+        'estado_Clie',
+        'id_valoracionFisica_FK',
+        'identificacion_Usuario_FK'
+    ];
 
     protected $timestamp = false;
 
-    public const Estado = ['Inactivo','Activo'];
+    public const Estado = ['Inactivo', 'Activo'];
 
-    public function estado_Clie(){
+    public function estado_Clie()
+    {
         return self::Estado[$this->estado_Clie];
     }
+    public function valoracion_fisica()
+    {
+        return $this->belongsTo(ValoracionFisica::class, 'id_valoracionFisica_FK');
+    }
 
-    public function usuario(){
+    public function usuario()
+    {
         return $this->belongsTo(User::class, 'identificacion_Usuario_FK');
     }
 }
